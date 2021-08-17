@@ -18,6 +18,5 @@ COPY package.json yarn.lock ./
 RUN yarn
 COPY . .
 COPY --from=development /usr/app/dist ./dist
-COPY --from=development /usr/app/ormconfig.js ./ormconfig.js
 
 CMD ["yarn", "start"]
