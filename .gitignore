@@ -1,0 +1,20 @@
+# Env
+.env
+
+# Dependency directories
+node_modules
+
+# mac files
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# vscode
+.vscode
+*code-workspace
+
+# compiled app
+dist
